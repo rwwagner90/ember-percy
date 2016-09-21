@@ -25,6 +25,7 @@ before_install:
   - "npm config set spin false"
   - "npm install -g npm@^2"
   - echo $TRAVIS_BUILD_ID
+  - echo $TRAVIS_JOB_ID
 
 install:
   - npm install -g bower
